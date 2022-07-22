@@ -20,6 +20,7 @@ int main(){
     srand(time(NULL));
     initialTableau(T1,Taille);
     initialTableau(T2,Taille);
+    printf("========================= Manipulation sur le tableau=========================\n");
     printf("Tableau 1 : \n" );
     afficherTableau(T1,Taille);
     printf("Tableau 2: \n");
@@ -39,6 +40,7 @@ int main(){
     }else{
         printf("Aucun element different \n");
     }
+    printf("========================= Manipulation sur les chaines de caracteres=========================\n");
     char chaine[TAILLE_LETTRE];
     printf("Entrez une phrase :");
     fgets(chaine,sizeof(chaine),stdin);
